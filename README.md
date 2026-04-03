@@ -32,6 +32,7 @@ WECO/
 
 ```matlab
 [BestX, BestF, HisBestFit, out] = WECO(obj_fun, D, N0, MaxFEs, lb, ub)
+[BestX, BestF, HisBestFit, out] = WECO(obj_fun, D, N0, MaxFEs, lb, ub, struct('seed', 2026))
 ```
 
 ### Inputs
@@ -41,7 +42,7 @@ WECO/
 - `N0`: initial population size.
 - `MaxFEs`: maximum number of function evaluations.
 - `lb`, `ub`: lower and upper bounds (scalar or 1-by-D vectors).
-- `opts` (optional): settings such as `seed`, `verbose`, and `history_length`.
+- `opts` (optional): either a struct or name-value pairs such as `seed`, `verbose`, and `history_length`.
 
 ### Outputs
 

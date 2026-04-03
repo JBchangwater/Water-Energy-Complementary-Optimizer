@@ -1,0 +1,20 @@
+# MATLAB
+*.asv
+*.mlx~
+*.autosave
+slprj/
+codegen/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Results
+*.mat
+*.fig
+*.png
+*.jpg
+*.jpeg
+results/
